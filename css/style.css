@@ -392,3 +392,44 @@ body{
 	font-size: .9em;
 	color: var(--white)
 }
+@media screen and (max-width:1023px){
+	.banner .header{
+		justify-content: center;
+	}
+	.banner .header .left{
+		flex-basis: 50%;
+	}
+	.banner .header .middle{
+		flex-basis: 50%;
+	}
+	.banner .header .right{
+		flex-basis: 40%;
+		margin-top: 20px;
+	}
+	.section1 .content{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.section1 .content .right{
+		flex-basis: 100%;
+		border: none;
+	}
+	.section2 .content{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.section2 .content .right{
+		flex-basis: 100%;
+		border: none;
+	}
+	.section3 .content .box{
+		flex-basis: 50%;
+		margin-bottom: 20px;
+	}
+	.section4 .picture{
+		width: 768px;
+	}
+	.section4 .picture img{
+		width: 768px;
+	}
+}
